@@ -85,6 +85,17 @@ nav ul {
     display: none;
   }
 }
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 1.4rem;
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+    gap: 10.5rem;
+  }
+}
 
 .hero-section {
   display: flex;
@@ -278,6 +289,16 @@ button.contact {
     flex-direction: column;
     gap: 5px;
     padding: 0 8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .client-logos ul {
+    padding: 0 6.9rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .client-logos ul {
+    padding: 0 5.5rem;
   }
 }
 
@@ -486,6 +507,38 @@ button.contact {
     width: 4rem;
   }
 }
+@media screen and (max-width: 375px) {
+  .cards {
+    flex-direction: column;
+    padding: 0 4rem;
+  }
+  .c1 {
+    margin-top: 0;
+  }
+  .rectangle2 {
+    width: 22rem;
+    height: 56rem;
+  }
+  .ellipse-help {
+    top: 70rem;
+    right: 3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .rectangle2 {
+    width: 19rem;
+    height: 57rem;
+  }
+  .ellipse-help {
+    top: 70.5rem;
+    right: 0;
+  }
+  .dots-help {
+    transform: rotate(90deg);
+    top: 14rem;
+    left: 4rem;
+  }
+}
 
 .legacy-section {
   position: relative;
@@ -590,6 +643,35 @@ button.contact {
   }
   .ellipse3 {
     display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .legacy-img {
+    width: 20rem;
+    height: 14rem;
+  }
+  .play-button {
+    width: 3rem;
+    top: 5rem;
+  }
+  .rectangle4 {
+    top: 14rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .legacy-section {
+    margin-top: 4rem;
+  }
+  .legacy-img {
+    width: 17rem;
+    height: 12rem;
+  }
+  .play-button {
+    top: 3.8rem;
+    left: 6.8rem;
+  }
+  .rectangle4 {
+    top: 12rem;
   }
 }
 
@@ -703,6 +785,31 @@ button.contact {
   }
   .ellipse2a {
     top: 19rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hc-content {
+    padding-left: 1rem;
+  }
+  .client-img {
+    width: 300px;
+  }
+  .dots-img2 {
+    width: 10rem;
+  }
+  .ellipse2a {
+    width: 5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .client-img {
+    width: 270px;
+  }
+  .dots-img2 {
+    left: 7.5rem;
+  }
+  .ellipse2a {
+    top: 17rem;
   }
 }
 
@@ -854,6 +961,19 @@ input.email {
     top: -2rem;
   }
 }
+@media screen and (max-width: 375px) {
+  .dots-img3 {
+    right: -1rem;
+  }
+  .inputfield {
+    margin-left: 4rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .inputfield {
+    margin-left: 3.6rem;
+  }
+}
 
 .footer {
   display: flex;
@@ -949,6 +1069,12 @@ input.email {
   }
   .socials {
     justify-content: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footer-abt {
+    flex-direction: column;
+    gap: 0px;
   }
 }
 
