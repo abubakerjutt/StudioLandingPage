@@ -577,15 +577,19 @@ button.contact {
     padding: 0;
   }
   .legacy-img {
-    width: 26rem;
-    height: 20rem;
+    width: 23rem;
+    height: 17rem;
   }
   .play-button {
-    top: 7rem;
-    left: 10rem;
+    width: 4rem;
+    top: 5.9rem;
+    left: 8.5rem;
   }
   .rectangle4 {
-    top: 20rem;
+    top: 17rem;
+  }
+  .ellipse3 {
+    display: none;
   }
 }
 
